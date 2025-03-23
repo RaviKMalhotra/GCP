@@ -51,5 +51,6 @@ Source Link for Google Cloud on YouTube: https://www.youtube.com/googlecloud
 # Google Cloud Tech on YouTube
 Source Link for Google Cloud Tech on YouTube: https://www.youtube.com/googlecloudplatform 
 
-# 
+# Google cloud for Startups
+Source Link for Google Cloud Startups: https://cloud.google.com/startup?hl=en
 
