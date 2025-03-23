@@ -10,3 +10,4 @@
 - Trust and security with Google Cloud
 - Scaling with Google Cloud operations
 ## Source: https://cloud.google.com/learn/certification/cloud-digital-leader 
+## Digital Cloud Leader Certification Exam Guide Source Link: https://services.google.com/fh/files/misc/cloud_digital_leader_exam_guide_english.pdf
