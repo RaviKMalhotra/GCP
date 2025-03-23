@@ -17,4 +17,10 @@
 
 - To give the principal permission to access the resource, you grant them (principal) the role (collection of permissions) on the resource.
 - You grant these roles using _an_allow policy_
-- 
+
+## Principals
+- In Google Cloud you control access for principals. 
+- Principals represent one or more identities that have authenticated to Google Cloud.
+- There are a variety of types of principals in IAM, but they can be divided into two broad categories:
+  - Human Users:
+  - Workloads:
