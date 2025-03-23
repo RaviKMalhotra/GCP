@@ -12,7 +12,7 @@ Demonstrate your knowledge and skills with an industry-recognized Google Cloud c
 Validates broad knowledge of cloud concepts and the products, services, tools, features, benefits, and use cases of Google Cloud.
 
 **Certifications: 
-**1. Cloud Digital Leader
+1. Cloud Digital Leader
 
 ## 2. Associate certification
 Validates fundamental skills to deploy and maintain cloud projects.
