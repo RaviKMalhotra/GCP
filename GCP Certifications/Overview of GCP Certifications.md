@@ -11,12 +11,13 @@ Demonstrate your knowledge and skills with an industry-recognized Google Cloud c
 ## 1. Foundational certification
 Validates broad knowledge of cloud concepts and the products, services, tools, features, benefits, and use cases of Google Cloud.
 
-**Certifications: 
+Certifications: 
 1. Cloud Digital Leader
 
 ## 2. Associate certification
 Validates fundamental skills to deploy and maintain cloud projects.
-**Certifications:
+
+Certifications:
 1. Cloud Engineer
 2. Google Workspace Administrator
 3. Data Practitioner
@@ -24,7 +25,7 @@ Validates fundamental skills to deploy and maintain cloud projects.
 ## 3. Professional certification
 Validates key technical job functions and advanced skills in design, implementation and management of Google Cloud products. This includes specialized certifications.
 
-**Certifications:
+Certifications:
 1. Cloud Architect
 2. Cloud Database Engineer
 3. Cloud Developer
