@@ -10,6 +10,7 @@ Demonstrate your knowledge and skills with an industry-recognized Google Cloud c
 
 ## 1. Foundational certification
 Validates broad knowledge of cloud concepts and the products, services, tools, features, benefits, and use cases of Google Cloud.
+
 **Certifications: 
 **1. Cloud Digital Leader
 
