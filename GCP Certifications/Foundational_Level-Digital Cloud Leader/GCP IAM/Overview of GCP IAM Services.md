@@ -22,7 +22,7 @@
 - In Google Cloud you control access for principals. 
 - Principals represent one or more identities that have authenticated to Google Cloud.
 - There are a variety of types of principals in IAM, but they can be divided into two broad categories:
-  - Human Users:
+  - **Human Users:**
      - Some IAM principal types represent human users. You use these principal types for managing your employees' access to Google Cloud resources.
      - Principal types that represent human users include Google Accounts, Google groups, and federated identities in workforce identity pools.
   - Workloads:
