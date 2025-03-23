@@ -35,3 +35,21 @@ Certifications:
 7. Cloud Network Engineer
 8. Machine Learning Engineer
 
+# Google Cloud Documentation
+Source Link for Google Cloud Documentation: https://cloud.google.com/docs 
+
+# Getting Started with Google Cloud
+Source Link for Getting Started with Google: https://cloud.google.com/docs/get-started 
+Source Link for Google Cloud Concepts: https://cloud.google.com/discover?hl=en
+
+# Cloud Architecture Center
+Source Link for Cloud Architecture Center: https://cloud.google.com/architecture 
+
+# Google Cloud on YouTube
+Source Link for Google Cloud on YouTube: https://www.youtube.com/googlecloud 
+
+# Google Cloud Tech on YouTube
+Source Link for Google Cloud Tech on YouTube: https://www.youtube.com/googlecloudplatform 
+
+# 
+
