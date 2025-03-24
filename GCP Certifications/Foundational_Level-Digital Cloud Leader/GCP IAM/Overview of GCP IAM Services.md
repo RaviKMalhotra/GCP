@@ -32,3 +32,18 @@
    
 ## Principal Types in Details
 IAM supports the following types of principals:
+- Google Accounts
+- Google groups
+- Google Workspace accounts
+- Service accounts
+- Cloud Identity domains
+- allAuthenticatedUsers
+- allUsers
+- One or more federated identities in a workspace identity pool
+- One or more federated identities in a workload identity pool
+- A set of Google Kubernetes Engine pods
+- Resource Manager principla ses
+
+
+## Permissions and roles
+
