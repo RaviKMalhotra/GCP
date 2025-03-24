@@ -56,7 +56,10 @@ IAM supports the following types of principals:
 - Roles are collections of permissions.
 - When you grant a role to a principal, you give that principal all of the permissions in that role.
 - There are three types of roles:
-Predefined roles: Roles that are managed by Google Cloud services. These roles contain the permissions needed to perform common tasks for each given service. For example, the Pub/Sub Publisher role (roles/pubsub.publisher) provides access to publish messages to a Pub/Sub topic.
+**- Predefined roles:**
+  - Roles that are managed by Google Cloud services.
+  - These roles contain the permissions needed to perform common tasks for each given service.
+  - For example, the Pub/Sub Publisher role (roles/pubsub.publisher) provides access to publish messages to a Pub/Sub topic.
 
 Custom roles: Roles that you create that contain only the permissions that you specify. You have complete control over the permissions in these roles. However, they have a higher maintenance burden than predefined roles and there's a limit to the number of custom roles that you can have in your project and in your organization.
 
