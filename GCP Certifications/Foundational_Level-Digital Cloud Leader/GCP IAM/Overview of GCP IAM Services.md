@@ -72,7 +72,9 @@ IAM supports the following types of principals:
   - **Highly permissive** roles that provide broad access to Google Cloud services.
   - These roles can be useful for testing purposes, but shouldn't be used in production environments.
   - Basic roles are highly premissive roles.
-  - Caution: 
+  - Caution: Basic roles contain thousands of permissions across all Google Cloud services.
+  - In production environment, do not grant basic roles unless there is no alternatives.
+  - Instead, grant the most limited predefined roles or custom roles that meet your needs.
 
 ## How to Determine if a Permission is included in a basic, predefined or custom role.
 - 
