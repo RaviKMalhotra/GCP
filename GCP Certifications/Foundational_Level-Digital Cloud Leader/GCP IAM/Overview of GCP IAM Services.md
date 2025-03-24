@@ -57,20 +57,6 @@ IAM supports the following types of principals:
 - When you grant a role to a principal, you give that principal all of the permissions in that role.
 - There are three types of roles:
   
-- Predefined roles:
-  - In addition to the basic roles, IAM provides additional predefined roles that give granular access to specific Google Cloud resources. These roles are created and maintained by Google. Google automatically updates their permissions as necessary, such as when Google Cloud adds new features or services.
-
-You can grant multiple roles to the same user, at any level of the resource hierarchy. For example, the same user can have the Compute Network Admin and Logs Viewer roles on a project, and also have the Pub/Sub Publisher role on a Pub/Sub topic within that project. 
-  - Roles that are managed by Google Cloud services.
-  - These roles contain the permissions needed to perform common tasks for each given service.
-  - For example, the Pub/Sub Publisher role (roles/pubsub.publisher) provides access to publish messages to a Pub/Sub topic.
-
-- Custom roles:
-  - Roles that you create that contain only the permissions that you specify.
-  - You have complete control over the permissions in these roles.
-  - However, they have a higher maintenance burden than predefined roles.
-  - And there's a limit to the number of custom roles that you can have in your project and in your organization.
-
 - Basic roles:
   - **Highly permissive** roles that provide broad access to Google Cloud services.
   - These roles can be useful for testing purposes, but shouldn't be used in production environments.
@@ -83,7 +69,22 @@ You can grant multiple roles to the same user, at any level of the resource hier
     - Writer (roles/writer), and 
     - Reader (roles/reader)
    
+**- Predefined roles:**
 
+  - In addition to the basic roles, IAM provides additional predefined roles that give granular access to specific Google Cloud resources.
+  - These roles are created and maintained by Google.
+  - Google automatically updates their permissions as necessary, such as when Google Cloud adds new features or services.
+
+You can grant multiple roles to the same user, at any level of the resource hierarchy. For example, the same user can have the Compute Network Admin and Logs Viewer roles on a project, and also have the Pub/Sub Publisher role on a Pub/Sub topic within that project. 
+  - Roles that are managed by Google Cloud services.
+  - These roles contain the permissions needed to perform common tasks for each given service.
+  - For example, the Pub/Sub Publisher role (roles/pubsub.publisher) provides access to publish messages to a Pub/Sub topic.
+
+- Custom roles:
+  - Roles that you create that contain only the permissions that you specify.
+  - You have complete control over the permissions in these roles.
+  - However, they have a higher maintenance burden than predefined roles.
+  - And there's a limit to the number of custom roles that you can have in your project and in your organization.
     
  
 ## Reader Role (roles/reader)
