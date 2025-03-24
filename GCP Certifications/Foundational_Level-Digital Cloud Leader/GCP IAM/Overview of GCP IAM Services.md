@@ -57,7 +57,8 @@ IAM supports the following types of principals:
 - When you grant a role to a principal, you give that principal all of the permissions in that role.
 - There are three types of roles:
   
-- Basic roles:
+**- Basic roles:**
+  
   - **Highly permissive** roles that provide broad access to Google Cloud services.
   - These roles can be useful for testing purposes, but shouldn't be used in production environments.
   - Basic roles are highly premissive roles.
