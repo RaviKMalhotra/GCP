@@ -74,13 +74,15 @@ IAM supports the following types of principals:
   - In addition to the basic roles, IAM provides additional predefined roles that give granular access to specific Google Cloud resources.
   - These roles are created and maintained by Google.
   - Google automatically updates their permissions as necessary, such as when Google Cloud adds new features or services.
-
-You can grant multiple roles to the same user, at any level of the resource hierarchy. For example, the same user can have the Compute Network Admin and Logs Viewer roles on a project, and also have the Pub/Sub Publisher role on a Pub/Sub topic within that project. 
-  - Roles that are managed by Google Cloud services.
+  - You can grant multiple roles to the same user, at any level of the resource hierarchy.
+  - For example, the same user can have the Compute Network Admin and Logs Viewer roles on a project, and also have the Pub/Sub Publisher role on a Pub/Sub 
+    topic within that project. 
+  - These Roles that are managed by Google Cloud services.
   - These roles contain the permissions needed to perform common tasks for each given service.
   - For example, the Pub/Sub Publisher role (roles/pubsub.publisher) provides access to publish messages to a Pub/Sub topic.
 
-- Custom roles:
+- **Custom roles:**
+  
   - Roles that you create that contain only the permissions that you specify.
   - You have complete control over the permissions in these roles.
   - However, they have a higher maintenance burden than predefined roles.
