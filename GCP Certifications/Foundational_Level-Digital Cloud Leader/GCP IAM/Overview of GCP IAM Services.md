@@ -25,4 +25,10 @@
   - **Human Users:**
      - Some IAM principal types represent human users. You use these principal types for managing your employees' access to Google Cloud resources.
      - Principal types that represent human users include Google Accounts, Google groups, and federated identities in workforce identity pools.
-  - Workloads:
+  - **Workloads:**
+    - Some IAM principal types represent workloads.
+    - You use these principal types when managing your workloads' access Google Cloud resources.
+    - Principal types that represent workloads include service accounts and federated identities in a workload identity pool.
+   
+## Principal Types in Details
+IAM supports the following types of principals:
