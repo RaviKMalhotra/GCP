@@ -75,6 +75,15 @@ IAM supports the following types of principals:
   - Caution: Basic roles contain thousands of permissions across all Google Cloud services.
   - In production environment, do not grant basic roles unless there is no alternatives.
   - Instead, grant the most limited predefined roles or custom roles that meet your needs.
+  - The Basic roles in IAM are:
+    - Admin (roles/admin)
+    - Writer (roles/writer), and 
+    - Reader (roles/reader)
+   
+    ## Admin Role (roles/admin)
+    
+    ## Writer Role (roles/writer)
+    ## Reader Role (roles/reader)
 
 ## How to Determine if a Permission is included in a basic, predefined or custom role.
 - 
