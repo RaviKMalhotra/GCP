@@ -103,11 +103,16 @@ IAM supports the following types of principals:
   - And there's a limit to the number of custom roles that you can have in your project and in your organization.
 
 ## When to use Custom Roles
-In most situations, you should be able to use predefined roles instead of custom roles. Predefined roles are maintained by Google, and are updated automatically when new permissions, features, or services are added to Google Cloud. In contrast, custom roles are not maintained by Google; when Google Cloud adds new permissions, features, or services, your custom roles will not be updated automatically.
-
-However, you might want to create a custom role in the following situations:
-
-A principal needs a permission, but each predefined role that includes that permission also includes permissions that the principal doesn't need and shouldn't have.
+- In most situations, you should be able to use predefined roles instead of custom roles.
+- Predefined roles are maintained by Google, and are updated automatically when new permissions, features, or services are added 
+  to Google Cloud.
+- In contrast, custom roles are not maintained by Google; when Google Cloud adds new permissions, features, or services, your 
+  custom roles will not be updated automatically.
+- However, you might want to create a custom role in the following situations:
+    - A principal needs a permission, but each predefined role that includes that permission also includes permissions that the 
+      principal doesn't need and shouldn't have.
+    - You use role recommendations to replace overly permissive role grants with more appropriate role grants. In some cases, you        might receive a recommendation to create a custom role.
+    - 
 ## Reader Role (roles/reader)
 
 ## Writer Role (roles/writer)
