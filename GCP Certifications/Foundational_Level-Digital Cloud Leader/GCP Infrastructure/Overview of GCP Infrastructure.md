@@ -167,4 +167,9 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
   - Follow the instructions provided on the page to install and configure GCDS for synchronizing your Active Directory or LDAP directory with Google Cloud.
   - you can also visit this page for step by step instructions --
     - https://support.google.com/a/answer/6120989?hl=en&sjid=6330265346186834591-NC&visit_id=638785249898484818-1076318879&ref_topic=7106512&rd=1
-  - 
+
+  No long-term commitment
+Cancel or downgrade your Google Workspace subscription at any time
+Price billed monthly (starting 9 Apr 2025)
+Add or remove users as needed
+35% discount applies for the first 3 months
