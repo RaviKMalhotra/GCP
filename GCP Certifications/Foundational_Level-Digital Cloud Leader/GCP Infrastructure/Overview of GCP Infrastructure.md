@@ -1,3 +1,11 @@
+# Basics of Cloud Computing
+# IaaS
+# PaaS
+# SaaS
+# Public Cloud Providers
+# Private Cloud Providers
+# Hybrid Cloud
+
 # GCP Infrastructure
 
 # Regions 🌍
@@ -100,3 +108,23 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
 
 - Shared Fate Model: Google Cloud's approach to partnering with customers to achieve better security outcomes through shared fate1.
 - Continuous Monitoring: Implementing continuous monitoring and logging to detect and respond to security incidents.
+
+# Cloud Identity
+- In the context of Google Cloud Platform (GCP), Cloud Identity is an Identity as a Service (IDaaS) solution that centrally manages users and groups. 
+- Here are some key points about Cloud Identity:
+- Cloud Identity allows you to manage user identities and access across your organization.
+- It helps you control who has access to your GCP resources.
+- You can configure Cloud Identity to federate identities between Google and other identity providers, such as Active Directory and Microsoft Entra ID (formerly 
+  Azure AD).
+- By using Cloud Identity, you can manage access and compliance across all users in your domain.
+- This includes setting up Identity and Access Management (IAM) policies to control access to GCP resources1.
+
+**- Key Features of Cloud Identity:**
+**1. User and Group Management: ** Create and manage user accounts and groups within your organization.
+**2. Security: ** Implement strong security measures, such as multi-factor authentication (MFA) and single sign-on (SSO).
+Compliance: Ensure compliance with regulatory requirements by managing and auditing user access.
+Benefits
+Centralized Management: Simplifies the management of user identities and access across multiple services and applications.
+Enhanced Security: Provides robust security features to protect your organization's data and resources.
+Scalability: Easily scales to accommodate the needs of growing organizations.
+Cloud Identity is an essential tool for managing and securing access to your GCP resources, ensuring that only authorized users can access sensitive data and services.
