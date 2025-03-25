@@ -84,13 +84,30 @@ IAM supports the following types of principals:
 
 - **Custom roles:**
   
+  - IAM also lets you create custom IAM roles.
+  - Custom roles help you enforce the principle of least privilege, because they help to ensure that the principals in your 
+    organization have only the permissions that they need.
+  - Custom roles are user-defined, and allow you to bundle one or more supported permissions to meet your specific needs.
+  - When you create a custom role, you must choose an **organization or project to create it in.**
+  - You can then grant the custom role on the organization or project, as well as any resources within that organization or 
+    project.
+  - You can only create 300 per organization and 300 per project.
+  - You can only grant a custom role within the project or organization in which you created it. You cannot grant custom roles on 
+    other projects or organizations, or on resources within other projects or organizations.
+  - Note: You cannot define custom roles at the folder level. If you need to use a custom role within a folder, define the custom 
+    role at the organization level.
+  - You create a custom role by combining one or more of the supported IAM permissions.
   - Roles that you create that contain only the permissions that you specify.
   - You have complete control over the permissions in these roles.
   - However, they have a higher maintenance burden than predefined roles.
   - And there's a limit to the number of custom roles that you can have in your project and in your organization.
-  - 
-    
- 
+
+## When to use Custom Roles
+In most situations, you should be able to use predefined roles instead of custom roles. Predefined roles are maintained by Google, and are updated automatically when new permissions, features, or services are added to Google Cloud. In contrast, custom roles are not maintained by Google; when Google Cloud adds new permissions, features, or services, your custom roles will not be updated automatically.
+
+However, you might want to create a custom role in the following situations:
+
+A principal needs a permission, but each predefined role that includes that permission also includes permissions that the principal doesn't need and shouldn't have.
 ## Reader Role (roles/reader)
 
 ## Writer Role (roles/writer)
