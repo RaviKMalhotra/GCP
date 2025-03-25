@@ -80,3 +80,23 @@ Google employs a multi-layered approach to secure its GCP infrastructure. Here a
 These measures collectively ensure that GCP infrastructure is secure, reliable, and compliant with industry standards.
 
 # Shared Responsibility Model
+
+-The shared responsibility model outlines the division of security responsibilities between Google Cloud and its customers.
+- Ensures both parties understand their roles in securing cloud environments.
+- Google Cloud's Responsibilities
+  - Infrastructure Security: Physical security of data centers, network security, and hardware maintenance.
+  - Platform Security: Ensuring the security of the cloud platform, including services like Compute Engine, Cloud Storage, and networking services.
+  - Compliance: Meeting industry standards and certifications (e.g., ISO/IEC 27001, SOC 1/2/3, GDPR).
+  - Physical Security: Secure data centers with multiple layers of protection.
+  - Network Security: Encryption of data in transit and at rest, DDoS protection.
+  - Operational Security: Regular patching and updates, incident response.
+- Customer's Responsibilities
+  - Data Security: Protecting data stored in the cloud, including encryption and access controls.
+  - Identity and Access Management (IAM): Managing user access and permissions.
+  - Configuration Management: Properly configuring cloud services to meet security and compliance requirements.
+  - Data Protection: Encrypting sensitive data, implementing DLP (Data Loss Prevention) policies.
+  - Access Management: Using IAM to control access, enabling multi-factor authentication (MFA).
+  - Compliance and Auditing: Regularly auditing configurations and access logs, ensuring compliance with regulatory requirements.
+
+- Shared Fate Model: Google Cloud's approach to partnering with customers to achieve better security outcomes through shared fate1.
+- Continuous Monitoring: Implementing continuous monitoring and logging to detect and respond to security incidents.
