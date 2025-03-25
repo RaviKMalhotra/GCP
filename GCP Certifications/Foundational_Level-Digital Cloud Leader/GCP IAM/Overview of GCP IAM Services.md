@@ -119,6 +119,17 @@ IAM supports the following types of principals:
   - Allow policies
   - Deny policies
   - Principal access boundary (PAB) policies
+ 
+## Allow Policies
+To grant principals access to resources, use IAM allow policies.
+
+Allow policies let you grant access to resources in Google Cloud. Allow policies are made up of role bindings and metadata. Role bindings specify which principals should have a certain role on the resource.
+
+Allow policies are always attached to a single resource. After you attach an allow policy to a resource, the policy is inherited by that resource's descendants.
+
+To create and apply an allow policy, you identify a resource that accepts allow policies, then use that resource's setIamPolicy method to create the allow policy. All principals in the allow policy are granted the specified roles on the resource and all of the resource's descendants. Each resource can have only one allow policy attached to it.
+
+For more information about allow policies, see Understanding allow policies.
 
 ## Reader Role (roles/reader)
 ## Writer Role (roles/writer)
