@@ -121,10 +121,16 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
 
 **- Key Features of Cloud Identity:**
 **1. User and Group Management: ** Create and manage user accounts and groups within your organization.
+
 **2. Security: ** Implement strong security measures, such as multi-factor authentication (MFA) and single sign-on (SSO).
-Compliance: Ensure compliance with regulatory requirements by managing and auditing user access.
-Benefits
-Centralized Management: Simplifies the management of user identities and access across multiple services and applications.
-Enhanced Security: Provides robust security features to protect your organization's data and resources.
-Scalability: Easily scales to accommodate the needs of growing organizations.
-Cloud Identity is an essential tool for managing and securing access to your GCP resources, ensuring that only authorized users can access sensitive data and services.
+
+**3. Compliance:** Ensure compliance with regulatory requirements by managing and auditing user access.
+
+**4. Centralized Management:** Simplifies the management of user identities and access across multiple services and applications.
+
+**5. Enhanced Security:** Provides robust security features to protect your organization's data and resources.
+
+**6. Scalability:** Easily scales to accommodate the needs of growing organizations.
+
+**Cloud Identity is an essential tool for managing and securing access to your GCP resources, ensuring that only authorized users can access sensitive data and services.
+**
