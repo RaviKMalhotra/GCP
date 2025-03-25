@@ -121,16 +121,35 @@ IAM supports the following types of principals:
   - Principal access boundary (PAB) policies
  
 ## Allow Policies
-To grant principals access to resources, use IAM allow policies.
+- To grant principals access to resources, use IAM allow policies.
+- Allow policies let you grant access to resources in Google Cloud.
+- **Allow policies are made up of role bindings and metadata. **
+- Role bindings specify which principals should have a certain role on the resource.
+- Allow policies are always attached to a single resource.
+- After you attach an allow policy to a resource, the policy is inherited by that resource's descendants.
+- To create and apply an allow policy, you identify a resource that accepts allow policies, then use that resource's setIamPolicy 
+  method to create the allow policy.
+- All principals in the allow policy are granted the specified roles on the resource and all of the resource's descendants.
+- Each resource can have only one allow policy attached to it.
 
-Allow policies let you grant access to resources in Google Cloud. Allow policies are made up of role bindings and metadata. Role bindings specify which principals should have a certain role on the resource.
+## Deny policies
+Identity and Access Management (IAM) deny policies let you set guardrails on access to Google Cloud resources. With deny policies, you can define deny rules that prevent certain principals from using certain permissions, regardless of the roles they're granted.
 
-Allow policies are always attached to a single resource. After you attach an allow policy to a resource, the policy is inherited by that resource's descendants.
+This page provides an overview of deny policies and deny rules. To learn how to create and update deny policies, see Deny access to resources.
 
-To create and apply an allow policy, you identify a resource that accepts allow policies, then use that resource's setIamPolicy method to create the allow policy. All principals in the allow policy are granted the specified roles on the resource and all of the resource's descendants. Each resource can have only one allow policy attached to it.
+How deny policies work
+Deny policies are made up of deny rules. Each deny rule specifies the following:
 
-For more information about allow policies, see Understanding allow policies.
+A set of principals that are denied permissions
+The permissions that the principals are denied, or unable to use
+Optional: The condition that must be true for the permission to be denied
+When a principal is denied a permission, they can't do anything that requires that permission, regardless of the IAM roles they've been granted. This is because IAM always checks relevant deny policies before checking relevant allow policies. For details, see policy evaluation.
 
+To specify where you want a deny policy to apply, you attach it to a project, folder, or organization. When a deny policy is attached to one of these resources, the principals in the policy can't use the specified permissions to access the resource, or any of the resource's descendants. To learn more about where you can attach a deny policy, see Attachment point on this page.
+
+You can attach multiple deny policies to a single resource. This lets you create separate deny policies for different types of deny rules. For example, you could put compliance-related deny rules in one policy, then use another policy for other deny rules. Each deny policy is evaluated independently of all other deny policies.
+
+Each resource can have up to 500 deny policies. Together, these deny policies can contain a total of 500 deny rules.
 ## Reader Role (roles/reader)
 ## Writer Role (roles/writer)
 ## Admin Role (roles/admin)
