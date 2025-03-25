@@ -160,3 +160,7 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
     up-to-date with changes made in your AD or LDAP directory.
   - Customizable Sync Options: Administrators can customize which attributes and objects to synchronize, providing flexibility to meet specific organizational   
     needs.
+- Download and Install GCDS
+  - access the GCDS Download page by visiting: https://tools.google.com/dlpage/dirsync
+  - Click on the download link to get the GCDS installer for your operating system.
+  - Follow the instructions provided on the page to install and configure GCDS for synchronizing your Active Directory or LDAP directory with Google Cloud. 
