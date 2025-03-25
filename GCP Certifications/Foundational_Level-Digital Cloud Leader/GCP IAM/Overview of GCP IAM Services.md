@@ -113,11 +113,14 @@ IAM supports the following types of principals:
       principal doesn't need and shouldn't have.
     - You use role recommendations to replace overly permissive role grants with more appropriate role grants. In some cases, you        might receive a recommendation to create a custom role.
     - 
+## IAM Policy Types
+- Identity and Access Management (IAM) offers several types of policies to help you control which resources principals can access.
+- IAM offers the following types of policies:
+  - Allow policies
+  - Deny policies
+  - Principal access boundary (PAB) policies
+
 ## Reader Role (roles/reader)
-
 ## Writer Role (roles/writer)
-
 ## Admin Role (roles/admin)
-
 ## How to Determine if a Permission is included in a basic, predefined or custom role.
-- 
