@@ -133,7 +133,8 @@ IAM supports the following types of principals:
 - Each resource can have only one allow policy attached to it.
 
 ## Deny policies
-Identity and Access Management (IAM) deny policies let you set guardrails on access to Google Cloud resources. With deny policies, you can define deny rules that prevent certain principals from using certain permissions, regardless of the roles they're granted.
+- Identity and Access Management (IAM) deny policies let you set guardrails on access to Google Cloud resources.
+- With deny policies, you can define deny rules that prevent certain principals from using certain permissions, **regardless of the roles they're granted.**
 
 This page provides an overview of deny policies and deny rules. To learn how to create and update deny policies, see Deny access to resources.
 
