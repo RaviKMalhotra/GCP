@@ -36,9 +36,10 @@
 ## How Google Secures GCP Infrastructure
 Google employs a multi-layered approach to secure its GCP infrastructure. Here are the key components of their security strategy:
 
-1. Physical Security
+**1. Physical Security**
 Data Centers: Google designs and builds its own data centers with multiple layers of physical security, including biometric identification, metal detection, cameras, vehicle barriers, and laser-based intrusion detection systems1.
 Access Control: Access to data centers is tightly controlled and monitored to ensure only authorized personnel can enter1.
+
 2. Infrastructure Security
 Custom Hardware: Google uses custom-designed hardware and software to enhance security and performance1.
 Secure Boot: Ensures that servers boot with a known, verified firmware and software stack1.
