@@ -1,6 +1,6 @@
 # GCP Infrastructure
 
-## Regions 🌍
+# Regions 🌍
 - A region is a specific geographical location where you can host your resources.
 - Each region is an independent geographic area that consists of multiple zones.
 - Regions help you place your resources closer to your users to reduce latency and meet regulatory and compliance requirements.
@@ -22,18 +22,18 @@
 
 
 
-## Zones 🗺️
+# Zones 🗺️
 - A zone is an isolated location within a region. Each region has multiple zones, and each zone is designed to be independent of the others in the same region.
 - Zones provide redundancy and isolation. By distributing your resources across multiple zones, you can protect your applications from failures that might occur 
   in a single zone.
 - In the us-central1 region, the zones are us-central1-a, us-central1-b, us-central1-c, and us-central1-f.
 
-## Key Points to Highlight 📌
+# Key Points to Highlight 📌
 - High Availability: Deploying resources across multiple zones within a region ensures high availability and fault tolerance.
 - Low Latency: Regions and zones help minimize latency by allowing you to place resources closer to your users.
 - Disaster Recovery: Using multiple regions can enhance disaster recovery strategies by providing geographic redundancy.
 
-## How Google Secures GCP Infrastructure
+# How Google Secures GCP Infrastructure
 Google employs a multi-layered approach to secure its GCP infrastructure. Here are the key components of their security strategy:
 
 **1. Physical Security:**
@@ -78,3 +78,5 @@ Google employs a multi-layered approach to secure its GCP infrastructure. Here a
 - Incident Response: A dedicated team and processes for responding to security incidents2.
 
 These measures collectively ensure that GCP infrastructure is secure, reliable, and compliant with industry standards.
+
+# Shared Responsibility Model
