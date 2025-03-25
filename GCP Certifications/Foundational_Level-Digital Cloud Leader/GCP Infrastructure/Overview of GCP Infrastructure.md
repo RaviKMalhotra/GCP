@@ -134,3 +134,7 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
 
 **Cloud Identity is an essential tool for managing and securing access to your GCP resources, ensuring that only authorized users can access sensitive data and services.
 **
+
+# [Lab] Adding Users Password Policy and Enforce 2-Step Verification
+
+# Google Cloud Directory Sync (GCDS)
