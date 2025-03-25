@@ -138,3 +138,9 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
 # [Lab] Adding Users Password Policy and Enforce 2-Step Verification
 
 # Google Cloud Directory Sync (GCDS)
+- Google Cloud Directory Sync (GCDS) is a tool that enables administrators to synchronize users, groups, and other data from an Active Directory (AD) or LDAP 
+  service to their Google Cloud domain directory1.
+- GCDS is a powerful tool for organizations that use both on-premises directories and Google Cloud services, providing seamless integration and management of 
+  user identities.
+  
+  Here are some key points about GCDS:
