@@ -96,6 +96,9 @@ Hybrid cloud combines the best of both worlds, integrating public and private cl
 - BigQuery: Fully managed data warehouse for large-scale data analytics.
 - Cloud Dataflow: Stream and batch data processing service.
 
+# marketplace
+
+
 # SaaS in GCP
 
 - Software as a Service (SaaS) is a cloud-based software delivery model where applications are hosted by a service provider and made available to customers over 
