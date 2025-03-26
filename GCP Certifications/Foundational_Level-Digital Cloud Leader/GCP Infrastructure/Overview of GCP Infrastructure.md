@@ -1,10 +1,87 @@
+google workspace details
+login - cloudadmin@ravikmalhotra.com 
+managed by ravikmalhotra.com
+workspace.google.com
+
 # Basics of Cloud Computing
-# IaaS
-# PaaS
-# SaaS
+
+# What is Cloud Computing
+- Cloud computing is a transformative technology that enables the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet, or "the cloud."
+- This model allows businesses and individuals to access and use IT resources on-demand, without the need for owning and maintaining physical infrastructure.
+- Cloud computing offers unparalleled scalability, flexibility, and cost-efficiency, as users can scale resources up or down based on their needs and only pay for what they use.
+- It encompasses various service models such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), each catering to different aspects of IT needs.
+- IaaS provides virtualized computing resources, PaaS offers a platform for developing and deploying applications, and SaaS delivers software applications over the internet.
+- Additionally, cloud computing can be deployed in different environments, including public, private, and hybrid clouds, each offering unique benefits and use cases.
+- Public clouds are managed by third-party providers and offer shared resources, private clouds are dedicated to a single organization for enhanced security and control, and hybrid clouds combine both to provide greater flexibility and optimization.
+- By leveraging cloud computing, organizations can innovate faster, improve operational efficiency, and gain a competitive edge in the digital landscape.
+
 # Public Cloud Providers
+Public cloud, private cloud, and hybrid cloud computing represent three distinct models of cloud deployment, each offering unique benefits and use cases for businesses. Public cloud services are provided by third-party vendors over the internet, offering scalable and cost-effective solutions where resources are shared among multiple organizations. This model is ideal for businesses looking to reduce IT costs and leverage the latest technologies without the need for significant upfront investments. 
+- Public cloud service providers offer scalable and cost-effective cloud solutions where resources are shared among multiple organizations. Here are a few examples:
+
+Amazon Web Services (AWS): One of the largest and most comprehensive cloud platforms, offering a wide range of services including computing power, storage, and databases1.
+Microsoft Azure: Provides a variety of cloud services, including those for computing, analytics, storage, and networking1.
+Google Cloud Platform (GCP): Offers services for computing, data storage, data analytics, and machine learning1.
+IBM Cloud: Provides IaaS, PaaS, and SaaS solutions, with a strong focus on AI and machine learning1.
+Oracle Cloud: Known for its database services, Oracle Cloud also offers a range of cloud solutions for enterprise applications1.
+
 # Private Cloud Providers
+Private cloud, on the other hand, is dedicated to a single organization, providing enhanced security, control, and customization. It is often hosted on-premises or in a dedicated data center, making it suitable for businesses with stringent regulatory requirements or those needing high levels of data privacy. 
+
 # Hybrid Cloud
+Hybrid cloud combines the best of both worlds, integrating public and private cloud environments to allow data and applications to move seamlessly between them. This model offers greater flexibility and optimization of existing infrastructure, enabling businesses to scale workloads across different environments based on their specific needs. By leveraging hybrid cloud, organizations can achieve a balance between cost efficiency, security, and performance, making it a versatile solution for a wide range of applications and industries.
+
+# IaaS in GCP
+- Infrastructure as a Service (IaaS) is a cloud computing model that provides virtualized computing resources over the internet.
+- It offers businesses the flexibility to rent virtual machines, storage, and networking components on a pay-as-you-go basis.
+- This eliminates the need for investing in and maintaining physical hardware, allowing organizations to scale their infrastructure up or down based on demand.
+- IaaS is ideal for businesses that require robust and scalable computing power without the overhead of managing physical servers.
+
+**IaaS (Infrastructure as a Service)**
+
+- Compute Engine: Virtual machines running in Google’s data centers.
+- Cloud Storage: Object storage service for storing and accessing data.
+- Virtual Private Cloud (VPC): Networking service for managing network resources.
+- Cloud Load Balancing: Distributes traffic across multiple instances.
+- Persistent Disk: Durable and high-performance block storage for VMs.
+- Cloud Interconnect: Extends on-premises networks to Google’s network.
+- Cloud DNS: Scalable, reliable, and managed DNS service.
+
+# PaaS in GCP
+
+- Platform as a Service (PaaS) is a cloud computing service that supplies a complete development and deployment environment in the cloud. 
+- It includes everything developers need to build, test, deploy, and manage applications, such as development tools, middleware, database management systems, and infrastructure.
+- PaaS abstracts the underlying infrastructure, enabling developers to focus on writing code and delivering applications quickly and efficiently.
+- This model is particularly beneficial for collaborative development projects and rapid application development.
+
+**PaaS (Platform as a Service)**
+
+- App Engine: Fully managed platform for building and deploying web applications.
+- Google Kubernetes Engine (GKE): Managed environment for deploying, managing, and scaling containerized applications using Kubernetes.
+- Cloud Functions: Event-driven serverless compute service.
+- Cloud Run: Fully managed compute platform for running containerized applications.
+- Firebase: Platform for building mobile and web applications.
+- BigQuery: Fully managed data warehouse for large-scale data analytics.
+- Cloud Dataflow: Stream and batch data processing service.
+
+# SaaS in GCP
+
+- Software as a Service (SaaS) is a cloud-based software delivery model where applications are hosted by a service provider and made available to customers over 
+  the internet.
+- Users can access these applications through a web browser, eliminating the need for installing and maintaining software on individual devices.
+- SaaS offers a subscription-based pricing model, making it cost-effective for businesses to use sophisticated software solutions without the complexities of 
+  software management.
+  This model is ideal for applications that require web or mobile access, such as email, customer relationship management (CRM), and collaboration tools.
+
+**SaaS (Software as a Service)**
+
+- Google Workspace: Suite of productivity and collaboration tools (e.g., Gmail, Docs, Drive, Calendar).
+- Google Analytics: Web analytics service for tracking and reporting website traffic.
+- Google Ads: Online advertising platform for creating and managing ads.
+- Google Cloud Identity: Identity and access management service.
+- Google Maps Platform: APIs and SDKs for integrating maps and location-based services into applications.
+
+
 
 # GCP Infrastructure
 
@@ -172,4 +249,8 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
 Cancel or downgrade your Google Workspace subscription at any time
 Price billed monthly (starting 9 Apr 2025)
 Add or remove users as needed
-35% discount applies for the first 3 months
+35% discount applies for the first 3 months.
+  Business Standard
+The 35% discount applies until 8 July 2025. Price returns to ₹1,300.00 INR per month for all users on 9 July 2025. Your first 14 days are at no charge (limited to 10 users). You can cancel at any time.
+https://support.google.com/a/answer/1257646 
+Recurs at the end of every month.
