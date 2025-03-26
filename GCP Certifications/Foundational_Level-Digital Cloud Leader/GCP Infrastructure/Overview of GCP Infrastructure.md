@@ -2,6 +2,15 @@ google workspace details
 login - cloudadmin@ravikmalhotra.com 
 managed by ravikmalhotra.com
 workspace.google.com
+ No long-term commitment
+Cancel or downgrade your Google Workspace subscription at any time
+Price billed monthly (starting 9 Apr 2025)
+Add or remove users as needed
+35% discount applies for the first 3 months.
+  Business Standard
+The 35% discount applies until 8 July 2025. Price returns to ₹1,300.00 INR per month for all users on 9 July 2025. Your first 14 days are at no charge (limited to 10 users). You can cancel at any time.
+https://support.google.com/a/answer/1257646 
+Recurs at the end of every month.
 
 # Basics of Cloud Computing
 
@@ -16,17 +25,28 @@ workspace.google.com
 - By leveraging cloud computing, organizations can innovate faster, improve operational efficiency, and gain a competitive edge in the digital landscape.
 
 # Public Cloud Providers
-Public cloud, private cloud, and hybrid cloud computing represent three distinct models of cloud deployment, each offering unique benefits and use cases for businesses. Public cloud services are provided by third-party vendors over the internet, offering scalable and cost-effective solutions where resources are shared among multiple organizations. This model is ideal for businesses looking to reduce IT costs and leverage the latest technologies without the need for significant upfront investments. 
+- Public cloud, private cloud, and hybrid cloud computing represent three distinct models of cloud deployment, each offering unique benefits and use cases for businesses.
+- Public cloud services are provided by third-party vendors over the internet, offering scalable and cost-effective solutions where resources are shared among multiple organizations.
+- This model is ideal for businesses looking to reduce IT costs and leverage the latest technologies without the need for significant upfront investments. 
 - Public cloud service providers offer scalable and cost-effective cloud solutions where resources are shared among multiple organizations. Here are a few examples:
-
-Amazon Web Services (AWS): One of the largest and most comprehensive cloud platforms, offering a wide range of services including computing power, storage, and databases1.
-Microsoft Azure: Provides a variety of cloud services, including those for computing, analytics, storage, and networking1.
-Google Cloud Platform (GCP): Offers services for computing, data storage, data analytics, and machine learning1.
-IBM Cloud: Provides IaaS, PaaS, and SaaS solutions, with a strong focus on AI and machine learning1.
-Oracle Cloud: Known for its database services, Oracle Cloud also offers a range of cloud solutions for enterprise applications1.
+  - Amazon Web Services (AWS): One of the largest and most comprehensive cloud platforms, offering a wide range of services including computing power, storage, 
+    and databases1.
+  - Microsoft Azure: Provides a variety of cloud services, including those for computing, analytics, storage, and networking1.
+  - Google Cloud Platform (GCP): Offers services for computing, data storage, data analytics, and machine learning1.
+  - IBM Cloud: Provides IaaS, PaaS, and SaaS solutions, with a strong focus on AI and machine learning1.
+  - Oracle Cloud: Known for its database services, Oracle Cloud also offers a range of cloud solutions for enterprise applications1.
 
 # Private Cloud Providers
-Private cloud, on the other hand, is dedicated to a single organization, providing enhanced security, control, and customization. It is often hosted on-premises or in a dedicated data center, making it suitable for businesses with stringent regulatory requirements or those needing high levels of data privacy. 
+- Private cloud, on the other hand, is dedicated to a single organization, providing enhanced security, control, and customization.
+- It is often hosted on-premises or in a dedicated data center, making it suitable for businesses with stringent regulatory requirements or those needing high 
+  levels of data privacy.
+- Private cloud service providers offer dedicated cloud environments for a single organization, providing enhanced security and control.
+- Here are a few examples:
+  - VMware: Offers private cloud solutions that can be deployed on-premises or in a hosted environment2.
+  - Amazon Web Services (AWS): Provides private cloud solutions through AWS Outposts, which bring AWS infrastructure and services to on-premises locations2.
+  - Microsoft Azure: Offers Azure Stack, a private cloud solution that extends Azure services to on-premises environments2.
+  - Google Cloud Platform (GCP): Provides Anthos, a platform for managing applications across hybrid and multi-cloud environments2.
+  - IBM Cloud: Offers private cloud solutions with a focus on security and compliance2. 
 
 # Hybrid Cloud
 Hybrid cloud combines the best of both worlds, integrating public and private cloud environments to allow data and applications to move seamlessly between them. This model offers greater flexibility and optimization of existing infrastructure, enabling businesses to scale workloads across different environments based on their specific needs. By leveraging hybrid cloud, organizations can achieve a balance between cost efficiency, security, and performance, making it a versatile solution for a wide range of applications and industries.
@@ -245,12 +265,4 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
   - you can also visit this page for step by step instructions --
     - https://support.google.com/a/answer/6120989?hl=en&sjid=6330265346186834591-NC&visit_id=638785249898484818-1076318879&ref_topic=7106512&rd=1
 
-  No long-term commitment
-Cancel or downgrade your Google Workspace subscription at any time
-Price billed monthly (starting 9 Apr 2025)
-Add or remove users as needed
-35% discount applies for the first 3 months.
-  Business Standard
-The 35% discount applies until 8 July 2025. Price returns to ₹1,300.00 INR per month for all users on 9 July 2025. Your first 14 days are at no charge (limited to 10 users). You can cancel at any time.
-https://support.google.com/a/answer/1257646 
-Recurs at the end of every month.
+ 
