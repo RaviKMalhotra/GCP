@@ -283,12 +283,32 @@ These measures collectively ensure that GCP infrastructure is secure, reliable, 
 # Resource Hierarchy in GCP (Org, Folder, and Projects) 
 - The Google Cloud Platform (GCP) resource hierarchy is designed to organize and manage resources in a structured manner, similar to a file system.
 - Here's a breakdown of the hierarchy:
-1. Organization: This is the top level of the hierarchy. It represents a company or an organization and provides central visibility and control over all resources.
-2. Folders: Under the organization, you can create folders to group projects and other folders. This helps in organizing resources based on departments, teams, or other logical groupings.
-3. Projects: Projects are the next level in the hierarchy. They are the primary grouping mechanism for resources and services. Each project has its own set of permissions, billing information, and settings.
-4. Resources: These are the actual services and components you use, such as Compute Engine VMs, Cloud Storage buckets, and Pub/Sub topics. Resources are contained within projects.
+- 
+**1. Organization:**
+- This is the top level of the hierarchy.
+- It represents a company or an organization and provides central visibility and control over all resources.
+- 
+**2. Folders:**
+- Under the organization, you can create folders to group projects and other folders.
+- This helps in organizing resources based on departments, teams, or other logical groupings.
+
+**3. Projects:**
+- Projects are the next level in the hierarchy. 
+- They are the primary grouping mechanism for resources and services. 
+- Each project has its own set of permissions, billing information, and settings.
+- Projects have their own set of permissions and roles. You can assign roles to users to control access to resources within the project.
+Common roles include Viewer, Editor, and Owner, each with different levels of access.
+- Each project is linked to a billing account. You can set up budgets and alerts to monitor and control spending.
+Billing information is managed at the project level, allowing for detailed cost tracking.
+Projects act as containers for resources like Compute Engine instances, Cloud Storage buckets, and BigQuery datasets.
+Resources within a project can be organized and managed using labels and tags.
+
+**4. Resources:**
+- These are the actual services and components you use, such as Compute Engine VMs, Cloud Storage buckets, and Pub/Sub topics.
+- Resources are contained within projects.
 
 The hierarchy allows for inheritance of policies and permissions. For example, access control policies set at the organization level are inherited by all folders, projects, and resources within that organizatio
+
 • [Lab] Create Folders & Projects in GCP 
 • [Lab] Organization Policy - I Identity & Access Management (Identity, Roles & Permissions) 
 • Primitive Roles • Pre-Defined Roles 
