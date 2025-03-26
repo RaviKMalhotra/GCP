@@ -52,9 +52,13 @@ Recurs at the end of every month.
 Hybrid cloud combines the best of both worlds, integrating public and private cloud environments to allow data and applications to move seamlessly between them. This model offers greater flexibility and optimization of existing infrastructure, enabling businesses to scale workloads across different environments based on their specific needs. By leveraging hybrid cloud, organizations can achieve a balance between cost efficiency, security, and performance, making it a versatile solution for a wide range of applications and industries.
 
 # IaaS in GCP
-- Infrastructure as a Service (IaaS) is a cloud computing model that provides virtualized computing resources over the internet.
+- Virtualization is the mother of Cloud Computing, be it any offerings either IaaS, PaaS, or SaaS.
+- Important layers in setting up the Infrastructure:
+   - Hardware   (Bare Metal)
+   - Hypervisor (VMware, ESXi, virtualization techniques).
+- Infrastructure as a Service (IaaS) is a cloud computing model that provides **virtualized** computing resources over the internet.
 - It offers businesses the flexibility to rent virtual machines, storage, and networking components on a pay-as-you-go basis.
-- This eliminates the need for investing in and maintaining physical hardware, allowing organizations to scale their infrastructure up or down based on demand.
+- This eliminates the need for **investing in and maintaining physical hardware**, allowing organizations to scale their infrastructure up or down based on demand.
 - IaaS is ideal for businesses that require robust and scalable computing power without the overhead of managing physical servers.
 
 **IaaS (Infrastructure as a Service)**
@@ -69,7 +73,15 @@ Hybrid cloud combines the best of both worlds, integrating public and private cl
 
 # PaaS in GCP
 
-- Platform as a Service (PaaS) is a cloud computing service that supplies a complete development and deployment environment in the cloud. 
+- If you want to launch a web application, you need bare minimum following components:
+  - Web Server with Windows/linux OS.
+  - Code of the application
+  - install the application server
+  - platform
+  - dependencies
+  - libraries
+-
+- - Platform as a Service (PaaS) is a cloud computing service that supplies a complete development and deployment environment in the cloud. 
 - It includes everything developers need to build, test, deploy, and manage applications, such as development tools, middleware, database management systems, and infrastructure.
 - PaaS abstracts the underlying infrastructure, enabling developers to focus on writing code and delivering applications quickly and efficiently.
 - This model is particularly beneficial for collaborative development projects and rapid application development.
