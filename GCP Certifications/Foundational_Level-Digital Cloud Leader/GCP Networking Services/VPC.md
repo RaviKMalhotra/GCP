@@ -83,16 +83,27 @@ The default VPC includes basic security configurations, but for production envir
 - This setup enables **secure and efficient communication between resources using internal IP addresses**.
 - In a Shared VPC, you designate a project as a host project and attach one or more service projects to it.
 - The VPC networks in the host project are called Shared VPC networks.
-
-Key benefits of Shared VPC include:
-
-Centralized Network Management: Network resources like subnets, routes, and firewalls are managed centrally in the host project, while service project admins can manage their own resources without impacting the network configuration1.
-Security and Access Control: Shared VPC allows for consistent application of security policies across multiple projects, ensuring that access control is maintained at the network level1.
-Cost Management: Service projects can be used to separate budgeting or internal cost centers, making it easier to track and manage expenses1.
-Shared VPC is ideal for organizations that need to maintain a centralized network infrastructure while allowing different teams or departments to manage their own resources independently1.
-
+- Key benefits of Shared VPC include:
+1. Centralized Network Management: Network resources like subnets, routes, and firewalls are managed centrally in the host project, while service project admins can manage their own resources without impacting the network configuration.
+2. Security and Access Control: Shared VPC allows for consistent application of security policies across multiple projects, ensuring that access control is maintained at the network level.
+3. Cost Management: Service projects can be used to separate budgeting or internal cost centers, making it easier to track and manage expenses.
+Shared VPC is ideal for organizations that need to maintain a centralized network infrastructure while allowing different teams or departments to manage their own resources independently.
 
 # VPC Peering
+- VPC Peering is a networking feature that allows you to connect **two Virtual Private Clouds (VPCs)** directly, enabling secure and private communication between them.
+- With VPC peering, resources in the peered VPCs can interact as if they were part of the same network, using private IP addresses.
+- This eliminates the need for traffic to traverse the public internet, enhancing security and reducing latency.
+- VPC peering is useful for scenarios such as:
+1. **Inter-Project Communication:**
+- Connecting VPCs in different projects within the same organization.
+
+ ** 2. Cross-Region Connectivity:**
+- Establishing connections between VPCs in different regions for global applications.
+  
+4. Resource Sharing: Allowing different teams or departments to share resources securely without exposing them to the public internet.
+5. Setting up VPC peering involves creating a peering connection request from one VPC and accepting it from the other. Once established, you need to update route tables and security groups to allow traffic between the peered VPCs12.
+
+
 
 # [ Labs Section ]
 Now, we will do couple of labs.
