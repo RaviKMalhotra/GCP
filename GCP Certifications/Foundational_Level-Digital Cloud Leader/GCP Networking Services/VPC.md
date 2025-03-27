@@ -262,10 +262,5 @@ Firewall Rules
 - No VPN client is required, making it easier for remote workers.
 - IAP is ideal for organizations looking to enhance security and simplify access management for their cloud-based and on-premises applications.
 
-# Explore Auto Mode VPC
+# By Ravi K Malhotra
 
-# Custom Mode VPC
-
-# Explore Custom Mode VPC
-
-#
