@@ -1,17 +1,3 @@
-Module 3: Networking in GCP
-• CIDR Notation 
-• Virtual Private Network & Subnets 
-• [Lab] Explore Default VPC 
-• [Lab] Create Auto Mode VPC 
-• [Lab] Create Custom Mode VPC 
-• [Lab] Create Virtual Machine with All Subnets Firewall Rules 
-• [Lab] Create Firewall Rule - SSH Internal vs External IP Address 
-• [Lab] Internal vs External IP Address 
-• [Lab] Static vs Ephemeral IP Address Shared VPC Concepts 
-• [Lab] Deploy Shared VPC Introduction to VPC Peering 
-• [Lab] VPC Peering GCP Hybrid Connectivity Options 
-• Dedicated Interconnect vs Partner Interconnect
-
 # Understanding of CIDR Notation
 - CIDR Notation (Classless Inter-Domain Routing) is a method used to allocate IP addresses and route IP packets more efficiently.
 - It represents IP addresses and their associated routing prefix in a compact format.
