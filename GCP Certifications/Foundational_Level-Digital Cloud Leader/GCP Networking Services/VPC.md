@@ -107,6 +107,43 @@ Allowing different teams or departments to share resources securely without expo
 - Once established, you need to update route tables and security groups to allow traffic between the peered VPCs.
 
 
+# IP Addressing
+overview of the different types of IP addresses used in Google Cloud Platform (GCP):
+
+1. **Internal IP Addresses:**
+- Internal IPv4 Addresses: These are private IP addresses used for communication within a VPC network.
+- They are not accessible from the internet and are used for internal communication between resources in the same VPC or connected networks.
+- Internal IPv6 Addresses: Similar to internal IPv4 addresses, these are private IPv6 addresses used for internal communication within a VPC network.
+  
+2. **External IP Addresses:**
+- External IPv4 Addresses: These are public IP addresses that allow resources to communicate with the internet.
+- They can be either ephemeral or static.
+- External IPv6 Addresses: Public IPv6 addresses that enable internet communication for resources.
+- These are provided by Google.
+  
+3. **Ephemeral IP Addresses:**
+- Ephemeral External IP Addresses: These are temporary IP addresses assigned to resources when they are created.
+- They are released when the resource is stopped or deleted.
+- Ephemeral Internal IP Addresses: These are temporary internal IP addresses assigned to resources within a VPC network.
+  
+4. **Static IP Addresses:**
+- Static External IP Addresses: These are permanent IP addresses that you reserve and assign to resources.
+- They remain the same even if the resource is stopped or restarted.
+- Static Internal IP Addresses: These are permanent internal IP addresses that you reserve and assign to resources within a VPC network.
+  
+5. **Alias IP Ranges:**
+- These allow you to assign multiple internal IP addresses to a single network interface.
+- This is useful for running multiple services on a single VM instance.
+  
+6. **Public IP Addresses:**
+- These are IP addresses that are routable on the internet.
+- External IPv4 and IPv6 addresses are always public IP addresses.
+
+7. **Private IP Addresses:**
+- These are IP addresses that are **not routable on the internet**.
+- They are used for internal communication within a VPC network or connected on-premises networks.
+
+### Understanding these different types of IP addresses helps in effectively managing network configurations and ensuring secure and efficient communication between resources in GCP.
 
 # [ Labs Section ]
 Now, we will do couple of labs.
