@@ -97,11 +97,14 @@ Shared VPC is ideal for organizations that need to maintain a centralized networ
 1. **Inter-Project Communication:**
 - Connecting VPCs in different projects within the same organization.
 
- ** 2. Cross-Region Connectivity:**
+ 2. **Cross-Region Connectivity:**
 - Establishing connections between VPCs in different regions for global applications.
-  
-4. Resource Sharing: Allowing different teams or departments to share resources securely without exposing them to the public internet.
-5. Setting up VPC peering involves creating a peering connection request from one VPC and accepting it from the other. Once established, you need to update route tables and security groups to allow traffic between the peered VPCs12.
+
+3. **Resource Sharing:**
+Allowing different teams or departments to share resources securely without exposing them to the public internet.
+
+- Setting up VPC peering involves creating a peering connection request from one VPC and accepting it from the other.
+- Once established, you need to update route tables and security groups to allow traffic between the peered VPCs.
 
 
 
