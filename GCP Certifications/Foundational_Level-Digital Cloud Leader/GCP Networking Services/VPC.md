@@ -187,7 +187,7 @@ Firewall Rules
 ------------------
 
 # Module 4: Identity-Aware Proxy (IAP)
-- Identity-Aware Proxy (IAP) is a Google Cloud service that provides a centralized authorization layer for applications accessed over HTTPS.
+- Identity-Aware Proxy (IAP) is a Google Cloud service that provides a **centralized authorization layer for applications accessed over HTTPS.**
 - It allows you to enforce access control policies at the application level, rather than relying solely on network-level firewalls.
 - By leveraging IAP, organizations can enforce granular access control policies at the application level, ensuring that only authenticated and authorized users can access sensitive resources.
 - This service integrates seamlessly with Google Cloud's suite of products, offering a robust security solution that aligns with modern zero-trust security models.
