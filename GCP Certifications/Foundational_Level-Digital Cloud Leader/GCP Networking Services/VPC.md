@@ -182,38 +182,11 @@ Firewall Rules
 - Refer to the screenshot below:
 - ![image](https://github.com/user-attachments/assets/34c5f7d4-7cb9-4732-b06c-755449b4d94b)
 
-# cloud Armor
-- Google Cloud Armor as a suite of security features and services.
-- Google Cloud Armor provides a comprehensive set of tools to protect your applications and infrastructure from various threats, including DDoS attacks and web 
-  application vulnerabilities.
-- It includes features like **DDoS protection**, a **web application firewall (WAF)**, **adaptive protection**, and **security policies**
-- Google Cloud Armor is a security service designed to protect your Google Cloud deployments from various types of threats, including distributed denial-of-service (DDoS) attacks and application attacks like cross-site scripting (XSS) and SQL injection (SQLi).
-- Here are some key features and benefits:
+------------------
+# Day 3
+------------------
 
-1. **DDoS Protection:**
-- Provides **always-on protection** against volumetric and protocol-based DDoS attacks, ensuring your applications remain available even under attack.
-
-2. **Web Application Firewall (WAF):**
-- Includes **preconfigured WAF rules** to protect against common web application vulnerabilities, such as those **listed in the OWASP Top 10**.
-- Allows you to define custom rules with configurable match conditions and actions to tailor security policies to your specific needs.
-
-3. **Security Policies:**
-- You can create and manage security policies to **protect applications running behind a load balancer.**
-- These policies can be configured manually or use preconfigured templates.
-- Policies can be applied to both **global and regional external Application Load Balancers**.
-- 
-4. **Adaptive Protection:**
-- Offers **adaptive protection for Layer 7 endpoints**, which uses **machine learning** to detect and mitigate sophisticated attacks in real-time.
-
-5. **Integration with Other Services:**
-- Integrates with Cloud CDN and Media CDN to provide enhanced security for content delivery networks.
-
-6. **Enterprise Features:**
-- Cloud Armor Enterprise includes advanced features such as third-party named IP address lists, Google Threat Intelligence, and DDoS bill protection.
-- Google Cloud Armor helps ensure the security and availability of your applications, whether they are deployed on Google Cloud, in a hybrid environment, or 
-  across multiple clouds.
-
-# Identity-Aware Proxy (IAP)
+# Module 4: Identity-Aware Proxy (IAP)
 - Identity-Aware Proxy (IAP) is a Google Cloud service that provides a centralized authorization layer for applications accessed over HTTPS.
 - It allows you to enforce access control policies at the application level, rather than relying solely on network-level firewalls.
 - By leveraging IAP, organizations can enforce granular access control policies at the application level, ensuring that only authenticated and authorized users can access sensitive resources.
@@ -247,6 +220,190 @@ Firewall Rules
 - End users can access IAP-secured applications by simply pointing their web browser to an internet-accessible URL.
 - No VPN client is required, making it easier for remote workers.
 - IAP is ideal for organizations looking to enhance security and simplify access management for their cloud-based and on-premises applications.
+
+• IAP - Identity Aware Proxy Part - I
+# [Lab] Identity Aware Proxy Part
+Step-by-Step Instructions
+1. Set Up Your Environment
+Create a Project: Go to the Google Cloud Console, create a new project, or select an existing one.
+Enable Billing: Ensure billing is enabled for your project.
+2. Enable Necessary APIs
+Navigate to APIs & Services > Library.
+Enable the Identity-Aware Proxy API and Compute Engine API.
+3. Set Up a Compute Engine Instance
+Create an Instance: Go to Compute Engine > VM instances and click on Create Instance.
+Configure the Instance: Choose the necessary configurations (e.g., machine type, region) and deploy a simple web application on this instance.
+4. Set Up an HTTPS Load Balancer
+Navigate to Load Balancing: Go to Network Services > Load Balancing.
+Create a Load Balancer: Click on Create Load Balancer and select HTTP(S) Load Balancer.
+Configure Backend Services: Add the Compute Engine instance as a backend service.
+Configure Frontend: Set up the frontend configuration with an IP address and port.
+5. Enable Identity-Aware Proxy (IAP)
+Navigate to IAP: Go to Security > Identity-Aware Proxy.
+Enable IAP: Select the load balancer you created and click on Enable IAP.
+Configure Access: Set up access controls by assigning IAM roles to users who should have access to the application.
+6. Test Your Configuration
+Access the Application: Try accessing the application through the load balancer's IP address.
+Authentication: You should be prompted to sign in with a Google account. Only users with the appropriate IAM roles will be able to access the application.
+For more detailed instructions, you can refer to the Google Cloud IAP documentation
+
+# Module 5: Cloud Armor
+- Google Cloud Armor as a suite of security features and services.
+- Google Cloud Armor provides a comprehensive set of tools to protect your applications and infrastructure from various threats, including DDoS attacks and web 
+  application vulnerabilities.
+- It includes features like **DDoS protection**, a **web application firewall (WAF)**, **adaptive protection**, and **security policies**
+- Google Cloud Armor is a security service designed to protect your Google Cloud deployments from various types of threats, including distributed denial-of-service (DDoS) attacks and application attacks like cross-site scripting (XSS) and SQL injection (SQLi).
+- Here are some key features and benefits:
+
+1. **DDoS Protection:**
+- Provides **always-on protection** against volumetric and protocol-based DDoS attacks, ensuring your applications remain available even under attack.
+
+2. **Web Application Firewall (WAF):**
+- Includes **preconfigured WAF rules** to protect against common web application vulnerabilities, such as those **listed in the OWASP Top 10**.
+- Allows you to define custom rules with configurable match conditions and actions to tailor security policies to your specific needs.
+
+3. **Security Policies:**
+- You can create and manage security policies to **protect applications running behind a load balancer.**
+- These policies can be configured manually or use preconfigured templates.
+- Policies can be applied to both **global and regional external Application Load Balancers**.
+- 
+4. **Adaptive Protection:**
+- Offers **adaptive protection for Layer 7 endpoints**, which uses **machine learning** to detect and mitigate sophisticated attacks in real-time.
+
+5. **Integration with Other Services:**
+- Integrates with Cloud CDN and Media CDN to provide enhanced security for content delivery networks.
+
+6. **Enterprise Features:**
+- Cloud Armor Enterprise includes advanced features such as third-party named IP address lists, Google Threat Intelligence, and DDoS bill protection.
+- Google Cloud Armor helps ensure the security and availability of your applications, whether they are deployed on Google Cloud, in a hybrid environment, or 
+  across multiple clouds.
+
+# Cloud Armor Lab
+
+To get started with a lab on GCP Cloud Armor, you can follow these steps:
+
+Set Up Your Environment:
+
+Ensure you have a Google Cloud account and have enabled billing.
+Create a new project or use an existing one.
+Enable Necessary APIs:
+
+Enable the Cloud Armor API and other related APIs like Compute Engine API.
+Create a Load Balancer:
+
+Set up an external HTTP(S) load balancer to serve as the entry point for your application.
+Configure Cloud Armor Security Policies:
+
+Create security policies to filter incoming traffic. You can use preconfigured WAF rules or define custom rules based on your needs1.
+Attach Security Policies to Backend Services:
+
+Apply the security policies to your backend services to protect them from attacks2.
+Test Your Configuration:
+
+Simulate different types of attacks to ensure your security policies are working as expected.
+For detailed instructions, you can refer to the Google Cloud Armor documentation12.
+
+If you have any specific questions or need further assistance, feel free to ask!
+
+
+
+1
+Favicon type
+Product overview | Google Cloud Armor
+
+2
+Favicon type
+Configure Google Cloud Armor security policies
+
+Favicon type
+Google Cloud Armor documentation
+Show more
+
+
+
+
+AI-generated content may be incorrect
+You said:
+
+no no, give me low level instructions, i want to perform this lab, i have access to the GCP 
+Copilot said:
+Copilot
+Got it! Let's dive into the detailed steps to set up a lab with Google Cloud Armor:
+
+Step-by-Step Instructions
+1. Set Up Your Environment
+Create a Project: Go to the Google Cloud Console, create a new project, or select an existing one.
+Enable Billing: Ensure billing is enabled for your project.
+2. Enable Necessary APIs
+Navigate to APIs & Services > Library.
+Enable the Cloud Armor API and Compute Engine API.
+3. Create a Load Balancer
+Navigate to Load Balancing: Go to Network Services > Load Balancing.
+Create a Load Balancer: Click on Create Load Balancer and select HTTP(S) Load Balancer.
+Configure Backend Services: Add backend services (e.g., instance groups) that will serve your application.
+Configure Frontend: Set up the frontend configuration with an IP address and port.
+4. Configure Cloud Armor Security Policies
+Create a Security Policy:
+Go to Security > Cloud Armor.
+Click on Create Policy.
+Define the policy name and description.
+Add rules to the policy (e.g., allow or deny specific IP ranges, apply preconfigured WAF rules).
+Add Rules: Specify the conditions for each rule (e.g., IP ranges, request headers).
+5. Attach Security Policies to Backend Services
+Navigate to Backend Services: Go to Network Services > Load Balancing > Backend Services.
+Select Backend Service: Choose the backend service you want to protect.
+Attach Security Policy: Click on Edit and attach the security policy you created.
+6. Test Your Configuration
+Simulate Attacks: Use tools like curl or third-party services to simulate different types of attacks (e.g., SQL injection, XSS).
+Verify Logs: Check the logs in Cloud Logging to ensure that the security policies are being enforced.
+
+
+# Module 6: Data Loss Prevention (DLP) API
+The Google Cloud Data Loss Prevention (DLP) API is a fully managed service designed to help you discover, classify, and protect sensitive data across your organization. Here’s a brief overview:
+
+What is Cloud DLP?
+Cloud DLP helps you identify and manage sensitive information in your data. It can inspect and classify data in various formats, including text, images, and storage repositories like BigQuery, Cloud Storage, and Datastore12.
+
+Key Features
+Data Discovery and Classification:
+
+Detects sensitive data such as credit card numbers, social security numbers, and other personally identifiable information (PII).
+Supports over 150 built-in information types2.
+Data Transformation:
+
+Provides methods for de-identifying data, such as masking, tokenization, and redaction, to protect sensitive information while preserving its utility2.
+Risk Analysis:
+
+Analyzes data to identify potential re-identification risks, helping you understand and mitigate privacy risks2.
+Integration and Automation:
+
+Offers APIs for integrating with existing systems and automating data protection workflows.
+Supports real-time data protection for live traffic and batch processing for data at rest2.
+How It Works
+Inspection: Cloud DLP inspects data to find sensitive information using predefined or custom detection rules.
+Transformation: It can then transform the data to obscure sensitive information while maintaining its usability.
+Analysis: Provides insights into data privacy risks and helps you manage compliance requirements2.
+For more detailed information, you can refer to the Google Cloud DLP documentation
+
+• [Lab] DLP API Demo
+
+Templates, INFO_TYPES & Match
+• [Lab] Create Stored INFO_TYPE
+• [Lab] Create Template
+• [Lab] Create Job for Inspection
+• [Lab] Template for De-Identification
+
+# Module 7: Backup and Disaster Recovery
+• RPO & RTO
+• [Lab] Backup Data Part - I
+• [Lab] Database Backup
+# Module 8: GCP Security Tools
+• [Lab] Web Security Scanner
+• [Lab] Security Command Center
+# Cloud Logging
+• [Lab] Explore Cloud Logging
+• [Lab] Cloud Log Sinks
+• [Lab] Container Scanning API
 
 # By Ravi K Malhotra
 
