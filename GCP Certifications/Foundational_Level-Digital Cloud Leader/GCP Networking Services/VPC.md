@@ -13,13 +13,16 @@ Module 3: Networking in GCP
 • Dedicated Interconnect vs Partner Interconnect
 
 # Understanding of CIDR Notation
-CIDR Notation (Classless Inter-Domain Routing) is a method used to allocate IP addresses and route IP packets more efficiently. It represents IP addresses and their associated routing prefix in a compact format. A CIDR notation consists of an IP address followed by a slash (/) and a number, which indicates the number of bits in the subnet mask.
-
-For example, in the CIDR notation 192.168.1.0/24:
-
-192.168.1.0 is the network address.
-/24 means that the first 24 bits of the IP address are the network part, and the remaining bits are used for host addresses.
-This notation allows for flexible and efficient allocation of IP addresses, reducing the wastage of IP address space compared to traditional class-based addressing. CIDR is widely used in modern networking to manage IP address allocation and routing.
+- CIDR Notation (Classless Inter-Domain Routing) is a method used to allocate IP addresses and route IP packets more efficiently.
+- It represents IP addresses and their associated routing prefix in a compact format.
+- A CIDR notation consists of an IP address followed by a slash (/) and a number, which indicates the number of bits in the subnet mask.
+- For example, in the CIDR notation 192.168.1.0/24:
+  - 192.168.1.0 is the network address.
+  - /24 means that the first 24 bits of the IP address are the network part, and the remaining bits are used for host addresses.
+  - This notation allows for flexible and efficient allocation of IP addresses, reducing the wastage of IP address space compared to traditional class-based 
+    addressing.
+- CIDR is widely used in modern networking to manage IP address allocation and routing.
+    
 # Understanding of VPC
 - VPC network is a global resource with regional subnets.
 - By regional subnets, that means the subnet should belong to any of the desired region (geographical location).
@@ -64,6 +67,34 @@ It allows you to quickly deploy resources without needing to configure networkin
 
 The default VPC includes basic security configurations, but for production environments, it's recommended to review and customize firewall rules and other security settings to meet your specific requirements.
 
+# Custom Mode VPC
+- A custom mode VPC in Google Cloud Platform (GCP) allows you to have full control over your network configuration.
+- Unlike auto mode VPCs, custom mode VPCs do not automatically create subnets in each region.
+- Instead, you manually create subnets with specific IP ranges as needed.
+- This flexibility enables you to design your network to fit your unique requirements, including setting up dual-stack subnets with both IPv4 and IPv6 address 
+  ranges.
+- Custom mode VPCs are ideal for production environments where precise network management is crucial.
+- They allow for better integration with existing IP address management schemes and avoid conflicts that can arise with auto mode VPCs.
+- Additionally, custom mode VPCs support advanced features like VPC Network Peering and Shared VPC, providing robust options for connecting and managing multiple networks3.
+
+# Shared VPC
+- Shared VPC in Google Cloud Platform (GCP) allows an organization to **connect resources from multiple projects** to a **common Virtual Private Cloud (VPC) ** 
+  network.
+- This setup enables secure and efficient communication between resources using internal IP addresses.
+- In a Shared VPC, you designate a project as a host project and attach one or more service projects to it. The VPC networks in the host project are called Shared VPC networks12.
+
+Key benefits of Shared VPC include:
+
+Centralized Network Management: Network resources like subnets, routes, and firewalls are managed centrally in the host project, while service project admins can manage their own resources without impacting the network configuration1.
+Security and Access Control: Shared VPC allows for consistent application of security policies across multiple projects, ensuring that access control is maintained at the network level1.
+Cost Management: Service projects can be used to separate budgeting or internal cost centers, making it easier to track and manage expenses1.
+Shared VPC is ideal for organizations that need to maintain a centralized network infrastructure while allowing different teams or departments to manage their own resources independently1.
+
+
+# VPC Peering
+
+# [ Labs Section ]
+Now, we will do couple of labs.
 # Explore Default VPC
 - Type 'VPC Networks' in the main search bar
 - Under 'VPC Networks', you will see one VPC created for you by default.
