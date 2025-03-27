@@ -78,10 +78,11 @@ The default VPC includes basic security configurations, but for production envir
 - Additionally, custom mode VPCs support advanced features like VPC Network Peering and Shared VPC, providing robust options for connecting and managing multiple networks3.
 
 # Shared VPC
-- Shared VPC in Google Cloud Platform (GCP) allows an organization to **connect resources from multiple projects** to a **common Virtual Private Cloud (VPC) ** 
+- Shared VPC in Google Cloud Platform (GCP) allows an organization to **connect resources from multiple projects** to a common Virtual Private Cloud (VPC)
   network.
-- This setup enables secure and efficient communication between resources using internal IP addresses.
-- In a Shared VPC, you designate a project as a host project and attach one or more service projects to it. The VPC networks in the host project are called Shared VPC networks12.
+- This setup enables **secure and efficient communication between resources using internal IP addresses**.
+- In a Shared VPC, you designate a project as a host project and attach one or more service projects to it.
+- The VPC networks in the host project are called Shared VPC networks.
 
 Key benefits of Shared VPC include:
 
