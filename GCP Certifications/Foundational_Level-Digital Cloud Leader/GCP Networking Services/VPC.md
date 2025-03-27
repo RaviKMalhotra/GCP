@@ -197,29 +197,30 @@ Firewall Rules
 - ![image](https://github.com/user-attachments/assets/34c5f7d4-7cb9-4732-b06c-755449b4d94b)
 
 # cloud Armor
-Google Cloud Armor is a security service designed to protect your Google Cloud deployments from various types of threats, including distributed denial-of-service (DDoS) attacks and application attacks like cross-site scripting (XSS) and SQL injection (SQLi). Here are some key features and benefits:
+- Google Cloud Armor is a security service designed to protect your Google Cloud deployments from various types of threats, including distributed denial-of-service (DDoS) attacks and application attacks like cross-site scripting (XSS) and SQL injection (SQLi). Here are some key features and benefits:
 
-DDoS Protection:
+1. **DDoS Protection:**
+- Provides **always-on protection** against volumetric and protocol-based DDoS attacks, ensuring your applications remain available even under attack.
 
-Provides always-on protection against volumetric and protocol-based DDoS attacks, ensuring your applications remain available even under attack1.
-Web Application Firewall (WAF):
+2. **Web Application Firewall (WAF):**
+- Includes **preconfigured WAF rules** to protect against common web application vulnerabilities, such as those **listed in the OWASP Top 10**.
+- Allows you to define custom rules with configurable match conditions and actions to tailor security policies to your specific needs.
 
-Includes preconfigured WAF rules to protect against common web application vulnerabilities, such as those listed in the OWASP Top 101.
-Allows you to define custom rules with configurable match conditions and actions to tailor security policies to your specific needs1.
-Security Policies:
+3. **Security Policies:**
+- You can create and manage security policies to **protect applications running behind a load balancer.**
+- These policies can be configured manually or use preconfigured templates.
+- Policies can be applied to both **global and regional external Application Load Balancers**.
+- 
+4. **Adaptive Protection:**
+- Offers **adaptive protection for Layer 7 endpoints**, which uses **machine learning** to detect and mitigate sophisticated attacks in real-time.
 
-You can create and manage security policies to protect applications running behind a load balancer. These policies can be configured manually or use preconfigured templates1.
-Policies can be applied to both global and regional external Application Load Balancers1.
-Adaptive Protection:
+5. **Integration with Other Services:**
+- Integrates with Cloud CDN and Media CDN to provide enhanced security for content delivery networks.
 
-Offers adaptive protection for Layer 7 endpoints, which uses machine learning to detect and mitigate sophisticated attacks in real-time2.
-Integration with Other Services:
-
-Integrates with Cloud CDN and Media CDN to provide enhanced security for content delivery networks2.
-Enterprise Features:
-
-Cloud Armor Enterprise includes advanced features such as third-party named IP address lists, Google Threat Intelligence, and DDoS bill protection2.
-Google Cloud Armor helps ensure the security and availability of your applications, whether they are deployed on Google Cloud, in a hybrid environment, or across multiple clouds.
+6. **Enterprise Features:**
+- Cloud Armor Enterprise includes advanced features such as third-party named IP address lists, Google Threat Intelligence, and DDoS bill protection.
+- Google Cloud Armor helps ensure the security and availability of your applications, whether they are deployed on Google Cloud, in a hybrid environment, or 
+  across multiple clouds.
 
 
 # Explore Auto Mode VPC
