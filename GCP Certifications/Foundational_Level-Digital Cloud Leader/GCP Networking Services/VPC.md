@@ -12,17 +12,28 @@ Module 3: Networking in GCP
 • [Lab] VPC Peering GCP Hybrid Connectivity Options 
 • Dedicated Interconnect vs Partner Interconnect
 
-VPC network is a global resource with regional subnets.
-By regional subnets, that means the subnet should belong to any of the desired region (geographical location).
-Each VPC is logically isolated from each other.
-You can create multiple VPCs as per the business requirements.
-you cannot connect from a VM in one VPC to the other VM in the second VPC by default.
-connectivity can be established between multiple VPCs using different services and techniques which we will explore in next topics.
-2 or more VPCs can be connected together using VPC peering.
-Subnets can acts as either private or public subnets depending on the routing defined.
-Firewall rules can be configured to allow or restrcit traffic within subnets.
-Resources wtihin a VPC communicate via the standard IPv4 addresses, and there is a dedicated DNS service within the VPC to provide name resolution.
+# Understanding of CIDR Notation
+CIDR Notation (Classless Inter-Domain Routing) is a method used to allocate IP addresses and route IP packets more efficiently. It represents IP addresses and their associated routing prefix in a compact format. A CIDR notation consists of an IP address followed by a slash (/) and a number, which indicates the number of bits in the subnet mask.
 
+For example, in the CIDR notation 192.168.1.0/24:
+
+192.168.1.0 is the network address.
+/24 means that the first 24 bits of the IP address are the network part, and the remaining bits are used for host addresses.
+This notation allows for flexible and efficient allocation of IP addresses, reducing the wastage of IP address space compared to traditional class-based addressing. CIDR is widely used in modern networking to manage IP address allocation and routing.
+# Understanding of VPC
+- VPC network is a global resource with regional subnets.
+- By regional subnets, that means the subnet should belong to any of the desired region (geographical location).
+- Each VPC is logically isolated from each other.
+- You can create multiple VPCs as per the business requirements.
+- you cannot connect from a VM in one VPC to the other VM in the second VPC by default.
+- connectivity can be established between multiple VPCs using different services and techniques which we will explore in next topics.
+- 2 or more VPCs can be connected together using VPC peering.
+- Subnets can acts as either private or public subnets depending on the routing defined.
+- Firewall rules can be configured to allow or restrcit traffic within subnets.
+- Resources wtihin a VPC communicate via the standard IPv4 addresses, and there is a dedicated DNS service within the VPC to provide name resolution.
+
+# Auto Mode VPC
+- An auto mode VPC in Google Cloud Platform (GCP) is a type of Virtual Private Cloud that automatically creates subnets in each region with predefined IP ranges. This setup simplifies network management by providing a global network infrastructure out of the box. Auto mode VPCs come with default firewall rules and routes, allowing for easy and quick deployment of resources without the need for extensive network configuration.
 
 # Default VPC
 - The default VPC is an auto mode VPC, which automatically creates subnets in each region.
@@ -85,8 +96,7 @@ Firewall Rules
 - ![image](https://github.com/user-attachments/assets/34c5f7d4-7cb9-4732-b06c-755449b4d94b)
 
   
-# Auto Mode VPC
-- An auto mode VPC in Google Cloud Platform (GCP) is a type of Virtual Private Cloud that automatically creates subnets in each region with predefined IP ranges. This setup simplifies network management by providing a global network infrastructure out of the box. Auto mode VPCs come with default firewall rules and routes, allowing for easy and quick deployment of resources without the need for extensive network configuration.
+
 
 # Explore Auto Mode VPC
 
