@@ -1,17 +1,3 @@
-google workspace details
-login - cloudadmin@ravikmalhotra.com 
-managed by ravikmalhotra.com
-workspace.google.com
- No long-term commitment
-Cancel or downgrade your Google Workspace subscription at any time
-Price billed monthly (starting 9 Apr 2025)
-Add or remove users as needed
-35% discount applies for the first 3 months.
-  Business Standard
-The 35% discount applies until 8 July 2025. Price returns to ₹1,300.00 INR per month for all users on 9 July 2025. Your first 14 days are at no charge (limited to 10 users). You can cancel at any time.
-https://support.google.com/a/answer/1257646 
-Recurs at the end of every month.
-
 # Basics of Cloud Computing
 
 # What is Cloud Computing
