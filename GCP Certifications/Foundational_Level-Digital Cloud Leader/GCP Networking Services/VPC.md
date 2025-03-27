@@ -188,12 +188,15 @@ Firewall Rules
 
 # Module 4: Identity-Aware Proxy (IAP)
 - Identity-Aware Proxy (IAP) is a Google Cloud service that provides a **centralized authorization layer for applications accessed over HTTPS.**
-- It allows you to enforce access control policies at the application level, rather than relying solely on network-level firewalls.
-- By leveraging IAP, organizations can enforce granular access control policies at the application level, ensuring that only authenticated and authorized users can access sensitive resources.
-- This service integrates seamlessly with Google Cloud's suite of products, offering a robust security solution that aligns with modern zero-trust security models.
-- IAP not only simplifies the management of user access but also enhances security by eliminating the need for traditional network-level firewalls and VPNs.
-- With features like context-aware access and integration with existing identity providers, IAP provides a comprehensive and flexible approach to securing 
-  cloud- based and on-premises applications.
+- It allows you to **enforce access control policies at the application level**, rather than relying solely on network-level firewalls.
+- By leveraging IAP, organizations can enforce granular access control policies at the application level, **ensuring that only authenticated and authorized 
+  users can access sensitive resources.**
+- This service integrates seamlessly with Google Cloud's suite of products, offering a robust security solution that aligns with modern zero-trust security 
+  models.
+- IAP not only simplifies the management of user access but also **enhances security by eliminating the need for traditional network-level firewalls and VPNs.**
+- With features like **context-aware access** and **integration with existing identity providers**, IAP provides a comprehensive and flexible approach to 
+  securing cloud- based and on-premises applications.
+
 - Here are some key features and benefits of IAP:
 
 1. **Centralized Access Control:**
@@ -221,31 +224,34 @@ Firewall Rules
 - No VPN client is required, making it easier for remote workers.
 - IAP is ideal for organizations looking to enhance security and simplify access management for their cloud-based and on-premises applications.
 
-• IAP - Identity Aware Proxy Part - I
-# [Lab] Identity Aware Proxy Part
-Step-by-Step Instructions
+# [Lab] Identity Aware Proxy Part - Step-by-Step Instructions
+
 1. Set Up Your Environment
 Create a Project: Go to the Google Cloud Console, create a new project, or select an existing one.
 Enable Billing: Ensure billing is enabled for your project.
+
 2. Enable Necessary APIs
 Navigate to APIs & Services > Library.
-Enable the Identity-Aware Proxy API and Compute Engine API.
+Enable the **Identity-Aware Proxy API** and Compute Engine API.
+
 3. Set Up a Compute Engine Instance
 Create an Instance: Go to Compute Engine > VM instances and click on Create Instance.
 Configure the Instance: Choose the necessary configurations (e.g., machine type, region) and deploy a simple web application on this instance.
+
 4. Set Up an HTTPS Load Balancer
-Navigate to Load Balancing: Go to Network Services > Load Balancing.
-Create a Load Balancer: Click on Create Load Balancer and select HTTP(S) Load Balancer.
-Configure Backend Services: Add the Compute Engine instance as a backend service.
-Configure Frontend: Set up the frontend configuration with an IP address and port.
+- Navigate to Load Balancing: Go to Network Services > Load Balancing.
+- Create a Load Balancer: Click on Create Load Balancer and select HTTP(S) Load Balancer.
+- Configure Backend Services: Add the Compute Engine instance as a backend service.
+- Configure Frontend: Set up the frontend configuration with an IP address and port.
+
 5. Enable Identity-Aware Proxy (IAP)
-Navigate to IAP: Go to Security > Identity-Aware Proxy.
-Enable IAP: Select the load balancer you created and click on Enable IAP.
-Configure Access: Set up access controls by assigning IAM roles to users who should have access to the application.
+- Navigate to IAP: Go to **Security > Identity-Aware Proxy.**
+- Enable IAP: Select the **load balancer** you created **and click on Enable IAP**.
+- Configure Access: Set up access controls by assigning IAM roles to users who should have access to the application.
+  
 6. Test Your Configuration
-Access the Application: Try accessing the application through the load balancer's IP address.
-Authentication: You should be prompted to sign in with a Google account. Only users with the appropriate IAM roles will be able to access the application.
-For more detailed instructions, you can refer to the Google Cloud IAP documentation
+- Access the Application: Try accessing the application through the load balancer's IP address.
+- Authentication: You should be prompted to sign in with a Google account. Only users with the appropriate IAM roles will be able to access the application.
 
 # Module 5: Cloud Armor
 - Google Cloud Armor as a suite of security features and services.
