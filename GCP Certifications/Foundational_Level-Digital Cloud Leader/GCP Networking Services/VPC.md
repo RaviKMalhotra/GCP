@@ -227,6 +227,35 @@ Firewall Rules
 - Google Cloud Armor helps ensure the security and availability of your applications, whether they are deployed on Google Cloud, in a hybrid environment, or 
   across multiple clouds.
 
+# Identity-Aware Proxy (IAP)
+- Identity-Aware Proxy (IAP) is a Google Cloud service that provides a centralized authorization layer for applications accessed over HTTPS.
+- It allows you to enforce access control policies at the application level, rather than relying solely on network-level firewalls.
+- Here are some key features and benefits of IAP:
+
+1. **Centralized Access Control:**
+- IAP provides a single point of control for managing user access to web applications and cloud resources.
+- This helps ensure consistent security policies across your organization.
+
+2. **Authentication and Authorization:**
+- IAP performs both authentication and authorization checks.
+- It verifies user identity and ensures that only authorized users can access protected resources.
+
+3. **Zero-Trust Security Model:**
+- IAP supports a zero-trust security model, allowing users to access applications from untrusted networks without the need for a VPN.
+- This enhances security and simplifies remote access.
+
+4. **Context-Aware Access:**
+- IAP can enforce access policies based on user identity, device security status, IP address, and other contextual attributes.
+- This allows for fine-grained access control.
+
+5. **Integration with Google Cloud Services:**
+- IAP integrates seamlessly with various Google Cloud services, including App Engine, Compute Engine, and Google Kubernetes Engine (GKE).
+- It can also protect SSH and RDP access to VMs.
+
+6. **Ease of Use:**
+- End users can access IAP-secured applications by simply pointing their web browser to an internet-accessible URL.
+- No VPN client is required, making it easier for remote workers.
+- IAP is ideal for organizations looking to enhance security and simplify access management for their cloud-based and on-premises applications.
 
 # Explore Auto Mode VPC
 
