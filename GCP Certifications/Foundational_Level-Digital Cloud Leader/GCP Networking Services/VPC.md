@@ -197,7 +197,12 @@ Firewall Rules
 - ![image](https://github.com/user-attachments/assets/34c5f7d4-7cb9-4732-b06c-755449b4d94b)
 
 # cloud Armor
-- Google Cloud Armor is a security service designed to protect your Google Cloud deployments from various types of threats, including distributed denial-of-service (DDoS) attacks and application attacks like cross-site scripting (XSS) and SQL injection (SQLi). Here are some key features and benefits:
+- Google Cloud Armor as a suite of security features and services.
+- Google Cloud Armor provides a comprehensive set of tools to protect your applications and infrastructure from various threats, including DDoS attacks and web 
+  application vulnerabilities.
+- It includes features like **DDoS protection**, a **web application firewall (WAF)**, **adaptive protection**, and **security policies**
+- Google Cloud Armor is a security service designed to protect your Google Cloud deployments from various types of threats, including distributed denial-of-service (DDoS) attacks and application attacks like cross-site scripting (XSS) and SQL injection (SQLi).
+- Here are some key features and benefits:
 
 1. **DDoS Protection:**
 - Provides **always-on protection** against volumetric and protocol-based DDoS attacks, ensuring your applications remain available even under attack.
