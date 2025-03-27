@@ -68,8 +68,11 @@ The default VPC includes basic security configurations, but for production envir
 - You cannot delete the defaul subnet.
 - Each subnet is named as default.
 - Each subnet has a specific Primary IPv4 ranges.
-- Each subnet has a dedicated, which is always the first ip address of that specific range. 
+- Each subnet has a dedicated, which is always the first ip address of that specific range.
+- example: for the subnet with the IPv4 range 10.140.0.0/20, the default gateway IP address will be '10.140.0.1'.
+  
 # Auto Mode VPC
+- An auto mode VPC in Google Cloud Platform (GCP) is a type of Virtual Private Cloud that automatically creates subnets in each region with predefined IP ranges. This setup simplifies network management by providing a global network infrastructure out of the box. Auto mode VPCs come with default firewall rules and routes, allowing for easy and quick deployment of resources without the need for extensive network configuration.
 
 # Explore Auto Mode VPC
 
