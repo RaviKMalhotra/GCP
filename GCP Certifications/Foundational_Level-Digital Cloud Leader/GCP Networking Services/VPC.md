@@ -70,6 +70,20 @@ The default VPC includes basic security configurations, but for production envir
 - Each subnet has a specific Primary IPv4 ranges.
 - Each subnet has a dedicated, which is always the first ip address of that specific range.
 - example: for the subnet with the IPv4 range 10.140.0.0/20, the default gateway IP address will be '10.140.0.1'.
+
+Firewall Rules
+
+- Default VPC (Custom Mode VPC) is also preconfigured with 6 Firewall Rules. These are the firewall rules:
+1. default-allow-https: with a Rule priority of 1000, allowing access over port HTTP/80.
+2. default-allow-https: with a Rule priority of 1000, allowing access over port HTTPS/443.
+3. defualt-allow-icmp: with a Rule priority of 65534, allowing access over port ICMP.
+4. default-allow-ssh: with a Rule priority of 65534, allowing access over port TCP/22.
+5. default-allow-internal: with a Rule priority of 65534, allowing access over TCP:0-65535 & UDP:0-65535, and ICMP.
+6. default-allow-rdp: with a Rule priority of 65534, allowing access over port TCP/3389.
+
+- Refer to the screenshot below:
+- ![image](https://github.com/user-attachments/assets/34c5f7d4-7cb9-4732-b06c-755449b4d94b)
+
   
 # Auto Mode VPC
 - An auto mode VPC in Google Cloud Platform (GCP) is a type of Virtual Private Cloud that automatically creates subnets in each region with predefined IP ranges. This setup simplifies network management by providing a global network infrastructure out of the box. Auto mode VPCs come with default firewall rules and routes, allowing for easy and quick deployment of resources without the need for extensive network configuration.
