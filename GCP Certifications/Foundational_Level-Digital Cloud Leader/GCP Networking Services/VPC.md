@@ -186,6 +186,22 @@ Firewall Rules
 # Day 3
 ------------------
 
+
+# Lab # 1 - Create a Load Balancing Setup
+
+1. **Create an instnace in the default vpc in the useast1b location with the windows server 2025 OS.**
+  - Install IIS role on this windows server to make it as a web server.
+     
+2. **Create an instnace in the default vpc in the useast1b location with the Debian OS.**
+  - Perform these commands on the debian machine to make a web server:
+    - sudo apt update
+    - sudo apt install apache2 -y
+    - sudo systemctl start apache2
+    - sudo systemctl enable apache2
+      
+3. **Crete an Instance Group in the Instance page**
+4. **Create a public facing application LB**
+
 # Module 4: Identity-Aware Proxy (IAP)
 - Identity-Aware Proxy (IAP) is a Google Cloud service that provides a **centralized authorization layer for applications accessed over HTTPS.**
 - It allows you to **enforce access control policies at the application level**, rather than relying solely on network-level firewalls.
