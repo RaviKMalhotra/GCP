@@ -415,10 +415,23 @@ Templates, INFO_TYPES & Match
 • [Lab] Create Job for Inspection
 • [Lab] Template for De-Identification
 
-# Module 7: Backup and Disaster Recovery
-• RPO & RTO
-• [Lab] Backup Data Part - I
-• [Lab] Database Backup
+# Module: Backup and Disaster Recovery
+- Google Cloud Platform (GCP) offers a robust suite of services and tools for backup to safeguard your critical data.
+- Key offerings include the Google Cloud Backup and DR Service, which provides centralized management, policy-based backups, and incremental backups for 
+  efficient data protection1.
+- Additionally, Persistent Disk Snapshots and Cloud Storage are essential tools for creating and storing backups, ensuring your data is secure and easily 
+  recoverable.
+- GCP also supports Backup Vaults, which offer immutable and indelible storage for enhanced security.
+- Whether using managed services or self-managed storage, GCP provides comprehensive solutions to meet diverse backup needs.
+
+  # Module: Disaster Recovery
+- Disaster recovery (DR) is a critical component of business continuity planning, designed to restore systems and data after a catastrophic event.
+- Google Cloud Platform (GCP) provides a comprehensive set of tools and technologies to support DR strategies.
+- Key offerings include the **Google Cloud Backup and DR Service**, which facilitates seamless backup and recovery operations.
+- Cloud Storage offers durable and scalable storage solutions for backup data.
+- Compute Engine provides flexible and reliable compute resources to quickly restore applications.
+- Additionally, Cloud DNS and Traffic Director help manage and route traffic efficiently during a disaster2. By leveraging these services, organizations can ensure minimal downtime and data loss, maintaining operational resilience in the face of unexpected disruptions.
+- 
 # Module 8: GCP Security Tools
 • [Lab] Web Security Scanner
 • [Lab] Security Command Center
